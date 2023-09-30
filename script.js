@@ -60,7 +60,7 @@ function createTimer(totalSeconds) {
     // Create the 'Stop Timer' button
     const stopButton = document.createElement('button');
     stopButton.classList.add('control-button', 'stop-button');
-    stopButton.textContent = 'Delete';
+    stopButton.textContent = 'Stop Timer';
 
     // Create the 'Delete' button
     const deleteButton = document.createElement('button');
